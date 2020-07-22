@@ -27,7 +27,7 @@ body {
 
 .container {
   
-  
+  max-width:500px!important;
  padding-top: 10em; 
   
 }
