@@ -12,6 +12,15 @@
  
 }
 
+.albumName  {
+ 
+ text-shadow: -1px 1px 0 #ffff55,
+				  1px 1px 0 #ffff55,
+				 1px -1px 0 #ffff55;
+				-1px -1px 0 #ffff55;
+ 
+}
+
 
 .button {
  
