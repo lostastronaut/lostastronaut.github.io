@@ -11,7 +11,7 @@ h1 {
 color: #f85898!important;
 font-family: 'Press Start 2P', cursive!important;
  font-size: 1.5em!important;
-  padding-bottom: 2em!important;
+  
 }
 
 p {
@@ -40,4 +40,11 @@ body {
 .content_center {
  margin-top: 25%;
   
+}
+
+.container {
+ 
+ 
+ padding: 5em;
+ 
 }
