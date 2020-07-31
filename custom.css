@@ -40,6 +40,15 @@ font-family: 'Press Start 2P', cursive!important;
   line-height: 1.6;
 }
 
+
+h2 {
+
+color: #f85898!important;
+font-family: 'Press Start 2P', cursive!important;
+ font-size: 1.1em!important;
+  line-height: 1.6;
+}
+
 p {
 
 color: #f85898!important;
@@ -68,6 +77,8 @@ body {
 .container {
  
  
- padding: 5em;
- 
+ padding-top: 5em;
+ padding-left: 5em;
+padding-right: 5em;
+	padding-bottom: 1em;
 }
