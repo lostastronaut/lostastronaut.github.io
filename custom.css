@@ -1,4 +1,16 @@
 
+.jumbotron{
+    background: url("https://lostastronaut.ca/header.jpg") no-repeat center center!important; 
+    -webkit-background-size: 100% 100%!important;
+    -moz-background-size: 100% 100%!important;
+    -o-background-size: 100% 100%!important;
+    background-size: 100% 100%!important;
+	height: 300px!important;
+}
+
+
+
+
 .header {
  
  padding-bottom: 1em!important;
