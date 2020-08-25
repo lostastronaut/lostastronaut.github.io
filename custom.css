@@ -43,11 +43,12 @@ font-family: 'Press Start 2P', cursive!important;
 h2 {
 
 color: #f85898!important;
-font-family: 'Press Start 2P', cursive!important;
+font-family: 'Roboto Mono', monospace!important;
  font-size: 1.1em!important;
   line-height: 1.6;
 	padding-top: 2em!important;
 	padding-bottom: 2em!important;
+	font-weight: 700!important;
 }
 
 p {
