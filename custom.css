@@ -52,8 +52,8 @@ font-family: 'Press Start 2P', cursive!important;
 
 p {
 
-color: #f85898!important;
-font-family: 'Press Start 2P', cursive!important;
+color: #333333!important;
+font-family: 'Roboto Mono', monospace!important;
  font-size: 1.0em!important;
 
 
@@ -61,7 +61,7 @@ font-family: 'Press Start 2P', cursive!important;
 body {
   
   
- background-color: #0b0c21!important; 
+ background-color: #ffffff!important; 
   
 }
 
