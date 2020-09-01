@@ -6,7 +6,7 @@
 	  
 	  
 	  
-	  
+	  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     
     <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-173388634-1"></script>
@@ -16,12 +16,10 @@
   gtag('js', new Date());
 
   gtag('config', 'UA-173388634-1');
-	ga('require', 'eventTracker');
-ga('require', 'outboundLinkTracker');
-ga('require', 'urlChangeTracker');
+
 </script>
 
-	  <script async src="https://lostastronaut.ca/autotrack.js"></script>
+
 	  
 	  
 	  
@@ -64,6 +62,30 @@ src="https://www.facebook.com/tr?id=965227657327735&ev=PageView
 	  
   </head>
 <body>
+	<script>
+/**
+* Function that automatically tracks a click on an outbound link in Google Analytics,
+* using the gtags.js. Setting the transport method to 'beacon' lets the hit be sent
+* using 'navigator.sendBeacon' in browser that support it.
+* Please ensure you already have jQuery installed.
+*/
+var trackOutboundLink = function(url) {
+  gtag('event', 'click', {
+    'event_category': 'outbound',
+    'event_label': url,
+    'transport_type': 'beacon',
+    'event_callback': function(){document.location = href;}
+  });
+}
+</script>
+
+<script>
+jQuery(document).ready(function($) {
+   $('a[href^="http"]:not([href*="//' + location.host + '"])').on('click', function(e) {
+            trackOutboundLink($(this).attr("href")); return true;
+        });
+  });
+</script>	
 	
 	<div class="container-fluid">
 		
