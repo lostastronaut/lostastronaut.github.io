@@ -12,7 +12,7 @@ color: white!important;
 	
 background-color:  #282c59!important;	
 padding-bottom: 3em;	
-	height: 100vh!important;
+	min-height: 100vh!important;
 	
 }
 
