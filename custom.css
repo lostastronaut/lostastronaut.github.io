@@ -6,6 +6,15 @@ text-color: white!important;
 	
 	
 }
+
+
+.Purple {
+	
+background-color:  #282c59!important;	
+	
+	
+}
+
 .text-center {
   text-align: center;
 	
@@ -24,7 +33,7 @@ font-size: 1.5em;
 .headerOne {
 height: 25vh;	
 	
-background-color:  #282c59!important;	
+background-color:  #ffffff!important;	
 	
 	
 }
