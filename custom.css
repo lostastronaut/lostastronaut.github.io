@@ -15,8 +15,9 @@ color: white!important;
 
 
 .Purple {
-	
-background-color:  #282c59!important;	
+	  background-image: url("https://lostastronaut.ca/wallpaper.png");
+  background-repeat: repeat;
+background-color:  #282c59;	
 padding-bottom: 3em;	
 	min-height: 100vh!important;
 	
