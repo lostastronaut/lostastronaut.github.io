@@ -16,6 +16,18 @@ height: 50vh;
 	
 }
 
+.wrap {
+  height: 200px;
+  width: 200px;
+  border: 1px solid #aaa;
+  margin: 10px;
+  display: flex;
+}
+
+.wrap span {
+  align-self: flex-end;
+}
+
 
 a:hover {
   color: #b2323f!important;
