@@ -83,7 +83,9 @@ color: #ffffff!important;
  font-weight: 900!important;
 
 font-size: 5em!important;
-	
+	margin: 0!important;
+	padding: 0!important;
+	line-height: 0.7!important;
 }
 
 
